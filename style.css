@@ -33,8 +33,13 @@ body {
   .container {
 
     padding: 10rem 0rem;
+  }
+}
+@media screen and (min-width: 1440px) {
 
+  .container {
 
+    padding: 13rem 0rem;
   }
 }
 
