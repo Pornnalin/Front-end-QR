@@ -15,7 +15,7 @@ body {
 
 }
 
-@media (max-width: 376px) and (min-width: 320px) {
+@media screen and (max-width: 375px) {
   .square {
     width: 20rem;
     height: 31.06rem;
@@ -24,14 +24,20 @@ body {
   .container {
     padding: 6rem 0rem;
 
-  }
-}
-@media (max-width: 1440px) and (min-width: 377px) {
-  .container {
-    padding: 13rem 0rem;
 
   }
 }
+
+@media screen and (min-width: 375px) {
+
+  .container {
+
+    padding: 10rem 0rem;
+
+
+  }
+}
+
 .square {
   width: 20rem;
   height: 31.06rem;
