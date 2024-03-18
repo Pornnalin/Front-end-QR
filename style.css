@@ -14,7 +14,7 @@ body {
   place-items: center;
 
 }
-
+/* <= 375 มากกว่า 375ไม่ได้ */
 @media screen and (max-width: 375px) {
   .square {
     width: 20rem;
@@ -22,17 +22,18 @@ body {
   }
 
   .container {
-    padding: 6rem 0rem;
+
+    padding-top: 20%;
 
 
   }
 }
-
+/* >= 375 น้อยกว่าไม่ได้ 375 */
 @media screen and (min-width: 375px) {
 
   .container {
 
-    padding: 10rem 0rem;
+    padding-top: 20%;
   }
 }
 @media screen and (min-width: 1440px) {
